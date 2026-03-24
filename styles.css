@@ -29,6 +29,6 @@ nav ul {
     min-width: 400px;
     margin: 0 auto;
 }
-nav {
-    
+nav ul li a{
+    text-decoration: none;
 }
