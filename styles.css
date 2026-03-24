@@ -26,9 +26,11 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-width: 400px;
+    min-width: 50rem;
     margin: 0 auto;
 }
 nav ul li a{
     text-decoration: none;
+    font-size: 2rem;
 }
+
