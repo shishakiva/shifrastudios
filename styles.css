@@ -1,3 +1,4 @@
-body {
-    background-color: rgba(249, 241, 238);
+body, h1{
+    background-color: green;
+    text-align: center;
 }
