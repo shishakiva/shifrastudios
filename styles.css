@@ -1,4 +1,28 @@
 body, h1{
-    background-color: green;
+    background-color: rgba(249, 241, 238);
     text-align: center;
+}
+header #imageholder{
+    width: 200px;
+}
+header img {
+    width: 100%;
+    height: auto;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0%;
+    display: flex;
+    min-width: 300px;
+    margin: 0 auto;
+}
+nav {
+    
 }
