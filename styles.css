@@ -1,4 +1,4 @@
-body, h1{
+body{
     background-color: rgba(249, 241, 238);
     text-align: center;
 }
@@ -10,16 +10,20 @@ header img {
     height: auto;
 }
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    margin: 0 0;
     background-image: url("images/header-background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
 }
+
+#banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 0;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0%;
@@ -34,3 +38,22 @@ nav ul li a{
     font-size: 2rem;
 }
 
+h1, header p {
+    margin: 0;
+    padding-bottom: 2rem;
+}
+
+button {
+    width: 12rem;
+    height: 2.5rem;
+    background-color: #563f31;
+    color: #faf9f7;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    margin: 2rem;
+}
+
+button:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
