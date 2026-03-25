@@ -88,13 +88,6 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 0.1fr 1fr 1fr;
-    grid-template-areas: 
-        "camara title"
-        "camra line"
-        "camara text"
-        "camara button";
-        "camara line"
-        "camara text";
     gap: 2rem;
     width: 80%;
     margin: 0 auto;
