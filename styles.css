@@ -68,7 +68,7 @@ header p {
     text-align: center;
 }
 
-button, .about a{
+button{
     width: 12rem;
     height: 2.5rem;
     background-color: #563f31;
