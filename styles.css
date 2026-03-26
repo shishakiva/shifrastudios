@@ -159,7 +159,7 @@ button:hover {
 
 .services .service-list {
     display: grid;
-    grid-template-columns: repeat(7, minmax(auto, 1fr));
+    grid-template-columns: 0.2fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.2fr;
     gap: 2rem;
     margin-top: 2rem;
 }
