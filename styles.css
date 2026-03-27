@@ -195,3 +195,53 @@ button:hover {
     background-color: #563f31;
     margin: 2rem 0 4% 0%;
 }
+
+.testimonials .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials .title .st-line {
+    width: 35%;
+    height: 2px;
+    background-color: #563f31;
+    margin: 0 1rem;
+}
+
+.testimonial-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.testimonial-item {
+    width: 30%;
+    background-color: #faf3ee;
+    padding: 1rem;
+    border-radius: 10px;
+    color: #3b2f2f;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1), -10px -10px 20px rgba(255, 255, 255, 0.7);
+    margin: 1rem;
+}
+
+footer {
+    background-color: #563f31;
+    color: #faf9f7;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div {
+    width: 30%;
+}
+
+footer .site-map ul {
+    list-style-type: none;
+    padding: 0;
+}
