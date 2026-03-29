@@ -7,7 +7,7 @@ body{
 header #imageholder{
     width: 200px;
     position: absolute;
-    top: 1rem;
+    top: 0.5rem;
     left: 5rem;
 
 }
@@ -84,7 +84,7 @@ button:hover {
     cursor: pointer;
 }
 
-.about {
+.about-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 0.1fr 1fr 1fr;
@@ -96,14 +96,14 @@ button:hover {
     height: fit-content;
 }
 
-.about #camara {
+.about-section #camara {
     grid-area: camara;
     width: 100%;
     height: auto;
     grid-row: 1 / span 4;
     grid-column: 1 / span 1;
 }
-.about .title {
+.about-section .title {
     font-size: 2rem;
     font-weight: bold;
     grid-row: 1 / 1;
@@ -111,7 +111,7 @@ button:hover {
     margin: 0;
     align-self: self-end;
 }
-.about .line {
+.about-section .line {
     width: 100%;
     height: 2px;
     background-color: #563f31;
@@ -121,19 +121,19 @@ button:hover {
     margin: 0;
     justify-self: start;
 }
-.about .text {
+.about-section .text {
     font-size: 1.2rem;
     text-align: left;
     padding: 2rem;
 }
 
-.about a {
+.about-section a {
     justify-self: start;
     align-self: start;
     margin-left: 2rem;
 }
 
-.about a button {
+.about-section a button {
     margin: 0;
 }
 
@@ -244,4 +244,17 @@ footer div {
 footer .site-map ul {
     list-style-type: none;
     padding: 0;
+}
+
+/* styles for the about page */
+
+.ap-about {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ap-about h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
