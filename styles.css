@@ -258,3 +258,49 @@ footer .site-map ul {
     font-weight: bold;
     margin-bottom: 1rem;
 }
+
+/* styles for the contact page */
+
+.contact-section {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.contact-section .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 65%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form button {
+    margin-top: 1rem;
+}
