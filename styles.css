@@ -246,6 +246,28 @@ footer .site-map ul {
     padding: 0;
 }
 
+footer .site-map ul li a {
+    margin: 0.5rem 0;
+    text-decoration: none;
+    color: #faf9f7;
+}
+
+footer .site-map ul li a:hover {
+    color: #d2c5c3;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+footer .contact-info p a {
+    text-decoration: none;
+    color: #faf9f7;
+}
+
+footer .contact-info p a:hover {
+    color: #d2c5c3;
+}
 /* styles for the about page */
 
 .ap-about {
@@ -295,12 +317,42 @@ footer .site-map ul {
     margin-bottom: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-.contact-form textarea {
     resize: none;
 }
 
 .contact-form button {
     margin-top: 1rem;
+}
+
+.contact-form  label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    align-self: flex-start;
+    width: 65%;
+    margin-left: 17.5%;
+}
+
+/* styles for the thanks page */
+
+.thank-you-card {
+    width: 50%;
+    margin: 20vh auto;
+    padding: 2rem;
+    background-color: #faf3ee;
+    border-radius: 10px;
+    color: #3b2f2f;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1), -10px -10px 20px rgba(255, 255, 255, 0.7);
+}
+
+.thank-you-card h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #563f31;
+}
+
+.thank-you-card p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
