@@ -138,6 +138,10 @@ button:hover {
     margin: 0;
 }
 
+.services a {
+    text-decoration: none;
+}
+
 .services .title {
     display: flex;
     align-items: center;
@@ -183,6 +187,19 @@ button:hover {
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
+}
+
+.services .service-list .service-item h3 {
+    font-size: 1.4rem;
+    margin: 1rem 0 0.5rem;
+    text-decoration: none;
+    color: #3b2f2f;
+}
+
+.services .service-list .service-item p {
+    font-size: 1rem;
+    color: #5b463b;
+    margin: 0;
 }
 
 .services .service-list .service-item {
@@ -244,17 +261,27 @@ footer div {
 footer .site-map ul {
     list-style-type: none;
     padding: 0;
+    text-align: left;
+    padding-left: 46.5%;
+}
+
+footer .site-map ul ul {
+    padding-left: 1rem;
+    margin-top: 0.5rem;
 }
 
 footer .site-map ul li a {
     margin: 0.5rem 0;
     text-decoration: none;
     color: #faf9f7;
+    display: block;
 }
 
 footer .site-map ul li a:hover {
     color: #d2c5c3;
 }
+
+
 
 a:visited {
     text-decoration: none;
