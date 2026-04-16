@@ -171,9 +171,6 @@ button:hover {
     margin: 0 auto;
 }
 
-.services .service-list .service-item {
-    ;
-}
 
 .services .service-list .line {
     width: 100%;
@@ -183,7 +180,9 @@ button:hover {
 }
 
 .services .service-list .service-item img {
-    height: 12rem;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 .services .service-list .service-item {
