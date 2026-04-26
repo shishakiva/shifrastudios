@@ -1015,3 +1015,10 @@ a:hover button {
     overflow-x: auto;
     margin-top: 5rem;
 }
+
+.gallery img {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+    transition: transform 0.45s ease;
+}
