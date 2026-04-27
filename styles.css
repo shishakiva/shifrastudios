@@ -980,13 +980,13 @@ a:hover button {
 }
 
 /* styles for the on location page */
-.on-location {
+.hero {
     width: min(95%, 1180px);
     margin: 4rem auto 2rem;
     text-align: left;
 }
 
-.hero {
+.on-location, .milestone, .newborn {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1.5rem;
@@ -994,9 +994,13 @@ a:hover button {
     align-items: center;
 }
 
-.on-location img {
+
+.on-location img, .newborn img {
     height: 100%;
     width: 100%;
+}
+
+.hero img {
     object-fit: cover;
     transition: transform 0.45s ease;
     align-self: center;
@@ -1007,7 +1011,7 @@ a:hover button {
     transform: scale(1.03);
 }
 
-.gallery {
+.sl-gallery {
     display: flex;
     flex-wrap: nowrap;
     gap: 1.5rem;
@@ -1016,7 +1020,7 @@ a:hover button {
     margin-top: 5rem;
 }
 
-.gallery img {
+.sl-gallery img {
     height: 200px;
     width: auto;
     object-fit: cover;

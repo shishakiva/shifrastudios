@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -26,6 +27,37 @@
             </nav>
         </div>
     </header>
+    <main>
+        <div class="newborn hero">
+                <img class="gallery-item" src="../../images/newborn/(1)-small.jpg" alt="Newborn Photography">
+                <img class="gallery-item" src="../../images/newborn/(2)-small.jpg" alt="Newborn Photography">
+                <img class="gallery-item" src="../../images/newborn/(3)-small.jpg" alt="Newborn Photography">
+                <img class="gallery-item" src="../../images/newborn/(4)-small.jpg" alt="Newborn Photography">
+        </div>
+        <div class="sl-gallery">
+            <a class="lightbox" href="../../images/newborn/(5).jpg">
+                <img src="../../images/newborn/(5)-small.jpg" alt="Newborn Photography">
+            </a>
+            <a class="lightbox" href="../../images/newborn/(6).jpg">
+                <img src="../../images/newborn/(6)-small.jpg" alt="Newborn Photography">
+            </a>
+            <a class="lightbox" href="../../images/newborn/(7).jpg">
+                <img src="../../images/newborn/(7)-small.jpg" alt="Newborn Photography">
+            </a>
+            <a class="lightbox" href="../../images/newborn/(9).jpg">
+                <img src="../../images/newborn/(9)-small.jpg" alt="Newborn Photography">
+            </a>
+            <a class="lightbox" href="../../images/newborn/(10).jpg">
+                <img src="../../images/newborn/(10)-small.jpg" alt="Newborn Photography">
+            </a>
+            <a class="lightbox" href="../../images/newborn/(11).jpg">
+                <img src="../../images/newborn/(11)-small.jpg" alt="Newborn Photography">
+            </a>
+            <a class="lightbox" href="../../images/newborn/COVER PICTURE.jpg">
+                <img src="../../images/newborn/COVER PICTURE-small.jpg" alt="Newborn Photography">
+            </a>
+        </div>
+    </main>
     <footer>
          <div class="legal-info">
             <h3>Legal Information</h3>
@@ -55,5 +87,11 @@
             </ul>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script>
+        const lightbox = GLightbox({
+            selector: '.lightbox'
+        });
+    </script>
 </body>
 </html>
