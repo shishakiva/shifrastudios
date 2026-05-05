@@ -97,12 +97,13 @@ button:hover {
     height: fit-content;
 }
 
-.about-section #camara {
+.about-section #studio-img {
     grid-area: camara;
     width: 100%;
     height: auto;
     grid-row: 1 / span 4;
     grid-column: 1 / span 1;
+    border-radius: 20px;
 }
 .about-section .title {
     font-size: 2rem;
@@ -187,6 +188,7 @@ button:hover {
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
+    border-radius: 15px;
 }
 
 .services .service-list .service-item h3 {
@@ -982,11 +984,12 @@ a:hover button {
 /* styles for the on location page */
 .hero {
     width: min(95%, 1180px);
-    margin: 4rem auto 2rem;
-    text-align: left;
+    margin: 4rem auto 4rem;
+    text-align: center;
+    position: relative;
 }
 
-.on-location, .milestone, .newborn {
+.on-location, .milestone, .newborn, .studio {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1.5rem;
@@ -995,7 +998,7 @@ a:hover button {
 }
 
 
-.on-location img, .newborn img {
+.on-location img, .newborn img , .milestone img, .studio img {
     height: 100%;
     width: 100%;
 }
@@ -1025,4 +1028,22 @@ a:hover button {
     width: auto;
     object-fit: cover;
     transition: transform 0.45s ease;
+}
+
+.sampleP-title {
+    font-family: "Playfair Display", serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #3b2f2f;
+    margin: 0 0 0.75rem;
+}
+
+display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.75rem;
+    align-items: center;
+
+.hero-container {
+    position: relative;
 }
