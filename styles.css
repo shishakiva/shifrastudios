@@ -85,6 +85,8 @@ button:hover {
     cursor: pointer;
 }
 
+
+
 .about-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -298,9 +300,7 @@ footer .contact-info p a:hover {
     color: #d2c5c3;
 }
 /* styles for the about page */
-main {
-    padding: 3rem 0 4rem;
-}
+
 
 .ap-about,
 .our-mission,
